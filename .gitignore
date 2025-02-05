@@ -1,0 +1,74 @@
+# Ignore Maven and Gradle build directories
+/target/
+/out/
+/build/
+
+# Ignore IDE and editor-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+/.vscode/
+/*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and generated files
+/logs/
+/*.log
+/*.log.*
+hs_err_pid*
+*.pid
+
+# Ignore compiled files and classes
+/bin/
+/*.class
+
+# Ignore dependency caches
+/.mvn/
+/.gradle/
+/gradle-app.setting
+
+# Ignore environment and security files
+.env
+*.env
+/secrets/
+/config/application.properties
+/config/application.yml
+/config/application-*.properties
+/config/application-*.yml
+
+# Ignore package manager directories
+node_modules/
+dist/
+
+# Ignore test reports
+/test-output/
+/jacoco.exec
+/surefire-reports/
+/test-results/
+
+# Ignore coverage reports
+/coverage/
+/.site/
+/*.ec
+
+# Ignore temporary and backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Ignore generated files from Spring Boot
+spring-boot-loader/
+META-INF/
+BOOT-INF/
+
+# Ignore local database files
+*.h2.db
+*.mv.db
+*.db
+
